@@ -28,5 +28,6 @@ The attention which was focused on the overall form of the object present in the
 ### Results
 The model with no augmentation showed an mAP of 11.47%, and the model with the proposed patch switching showed an mAP of 25.27%.
 Applying data augmentation with patch switching increased the overall performance 2.2 times.
-<img width="50%" src="https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/4727ce6d-05a2-45f4-b16c-e1e9ea4f5080"/>
+
+<img width="50%" src="https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/77b0c0e0-4d89-4a8c-9bbb-442e5d2c8e7a"/>
 
