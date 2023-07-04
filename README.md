@@ -9,7 +9,7 @@ Specifically, training data is augmented by splitting a given image into four pa
 Evaluation using Tiny-ImageNet200 dataset shows that augmenting data with patch switching results in better performance.
 
 
-## Developement Environment
+### Developement Environment
 Python 3.10.4
 
 cudatoolkit 11.3
@@ -20,7 +20,8 @@ cudnn 8.4.1
 
 Tiny-ImageNet200 Dataset
 
-## Data Augmentation by Patch Switching
+
+### Data Augmentation by Patch Switching
 An image is split into four grid areas, and the split areas are randomly reordered to deform the original image.
 The newly created deformed images increase the diversity of the training set.
 The original image and the deformed image are paired and used during training.
@@ -28,7 +29,7 @@ The attention which was focused on the overall form of the object present in the
 <img width="50%" src="https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/3966b093-3530-4e9e-b974-f1efaee51afb"/>
 
 
-## Results
+### Results
 The model with no augmentation showed an mAP of 11.47%, and the model with the proposed patch switching showed an mAP of 25.27%.
 Applying data augmentation with patch switching increased the overall performance 2.2 times.
 <img width="50%" src="https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/4727ce6d-05a2-45f4-b16c-e1e9ea4f5080"/>
