@@ -25,8 +25,8 @@ An image is split into four grid areas, and the split areas are randomly reorder
 The newly created deformed images increase the diversity of the training set.
 The original image and the deformed image are paired and used during training.
 The attention which was focused on the overall form of the object present in the image is now given to other specific parts of the object as well.
+<img width="50%" src="https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/3966b093-3530-4e9e-b974-f1efaee51afb"/>
 
-![image](https://github.com/Oh-Jieun/Patch-Switching/assets/105771364/1cddf0ff-36d7-4b08-91e0-7dca6881ceac)
 
 ## Results
 The model with no augmentation showed an mAP of 11.47%, and the model with the proposed patch switching showed an mAP of 25.27%.
