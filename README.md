@@ -10,14 +10,10 @@ Evaluation using Tiny-ImageNet200 dataset shows that augmenting data with patch 
 
 
 ### Developement Environment
-Python 3.10.4
-
-cudatoolkit 11.3
-
-PyTorch 11.1.0
-
-cudnn 8.4.1
-
+Python 3.10.4  
+cudatoolkit 11.3  
+PyTorch 11.1.0  
+cudnn 8.4.1  
 Tiny-ImageNet200 Dataset
 
 
